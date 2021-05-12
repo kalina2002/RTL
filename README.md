@@ -22,18 +22,18 @@ $python test_candy.py
 
 1) flip horizontally
 	Uncomment the lines 105-108 in file gym_candy/gym_candy/envs/agent.py
+	
 	#flip-lr
-    state_new = np.flip(state, 1)
-    next_state_new = np.flip(next_state, 1)
-    action_new = self.flip_lr(action)
-    self.memory.append((state_new, action_new, reward, next_state_new, done))
+    	state_new = np.flip(state, 1)
+    	next_state_new = np.flip(next_state, 1)
+    	action_new = self.flip_lr(action)
+    	self.memory.append((state_new, action_new, reward, next_state_new, done))
         
 2) flip vertically
 	Uncomment the lines 115-121 in file gym_candy/gym_candy/envs/agent.py	
 	#flip-up
-    if(np.array_equal(state[33:164,11:137,:],next_state[33:164,11:137,:])):
-        print('state is equal to the next state')
-	
+    	if(np.array_equal(state[33:164,11:137,:],next_state[33:164,11:137,:])):
+       	    print('state is equal to the next state')
 	    state_new = np.flip(state[33:164,11:137,:], 0)
 	    next_state_new = np.flip(next_state[33:164,11:137,:], 0)
 	    action_new = self.flip_up(action)
