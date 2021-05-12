@@ -34,6 +34,7 @@ $python test_candy.py
         
 2) flip vertically
 	Uncomment the lines 115-121 in file gym_candy/gym_candy/envs/agent.py	
+	
 	#flip-up
 	
 	
