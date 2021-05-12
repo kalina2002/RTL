@@ -14,12 +14,11 @@ Simply clone the source code from this repository and apply the follwing envirom
 * EMULATOR OR DEVICES
 * Candy Crush Game
 
-##USAGE
-
+## USAGE
 $python train_candy.py
 $python test_candy.py
 
-##Apply data augmentation
+## Apply data augmentation
 
 1) flip horizontally
 	Uncomment the lines 105-108 in file gym_candy/gym_candy/envs/agent.py
