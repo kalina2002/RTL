@@ -15,6 +15,7 @@ Simply clone the source code from this repository and apply the follwing envirom
 * Candy Crush Game
 
 ##USAGE
+
 $python train_candy.py
 $python test_candy.py
 
